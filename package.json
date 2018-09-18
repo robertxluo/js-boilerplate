@@ -1,13 +1,17 @@
 {
   "name": "js-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A minimal JavaScript boilerplate with best practices",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertxluo/js-boilerplate.git"
+  },
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Robert Luo",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.0.0",
