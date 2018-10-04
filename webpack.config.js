@@ -25,5 +25,5 @@ module.exports = {
         publicPath: '/scripts/',
         watchContentBase: true
     },
-    devtool: 'source-map'
+    devtool: 'cheap-module-eval-source-map'
 }
